@@ -1,0 +1,12 @@
+{
+    "name": "portfolioWeb",
+    "version": "0.0.1",
+    "type": "Website",
+    "types": "./dist/types/photoswipe.d.ts",
+    "dependencies": {
+      "/PhotoSwipe-master/dist/photoswipe.esm.js": "5.3.1"
+    },
+    "description": "Web Site portfolio",
+    "author": "Ismael Chakhari",
+    "license": "MIT"
+  }

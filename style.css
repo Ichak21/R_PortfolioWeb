@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+/* Navigation menu */
+ .nav-link, .navbar-brand {
+    color:bisque;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: rgb(185, 165, 141)
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/bg_ban.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+
+/* about section image css */
+.portFolio-Gallery {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    border : 2px solid orangered;
+    height:100vh;
+}
+
+.pswp-gallery {
+    background-color: aliceblue;
+    display: grid;
+    width: 80%;
+    height: 30%;
+    margin: 0px;
+    grid-template-columns: 23% 23% 23% auto;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+        "Title Title Title BigPict"
+        "Pict1 Pict2 Pict3 BigPict"
+        ;
+    border: 2px solid red;
+}
+
+#Title {
+    grid-area: Title;
+    margin: 0%;
+}
+
+#BigPict {
+    grid-area: BigPict;
+    margin: 0%;
+}
+
+#Pict1 {
+    grid-area: Pict1;
+    margin: 0%;
+}
+
+#Pict2 {
+    grid-area: Pict2;
+    margin: 0%;
+}
+
+#Pict3 {
+    grid-area: Pict3;
+    margin: 0%;
+}
+
+#pict_link{
+    width: 0%;
+    height: 0%;
+}
+
+H3{
+    border: 2px solid blue;
+}
